@@ -1,0 +1,170 @@
+[
+  {
+    "id": "q1",
+    "stem": "If 3x + 7 = 22, what is the value of x?",
+    "answers": [
+      { "id": "a", "text": "3" },
+      { "id": "b", "text": "5" },
+      { "id": "c", "text": "7" },
+      { "id": "d", "text": "9" }
+    ],
+    "correctAnswerId": "b",
+    "subject": "Math",
+    "difficulty": "easy",
+    "tags": ["algebra", "linear-equations", "solving-equations"]
+  },
+  {
+    "id": "q2",
+    "stem": "A line passes through the points (2, 3) and (6, 11). What is the slope of the line?",
+    "answers": [
+      { "id": "a", "text": "1" },
+      { "id": "b", "text": "3" },
+      { "id": "c", "text": "2" },
+      { "id": "d", "text": "4" }
+    ],
+    "correctAnswerId": "c",
+    "subject": "Math",
+    "difficulty": "medium",
+    "tags": ["algebra", "slope", "coordinate-geometry"]
+  },
+  {
+    "id": "q3",
+    "stem": "The function f(x) = x² - 4x + 3 has roots at x = 1 and x = 3. For which values of x is f(x) < 0?",
+    "answers": [
+      { "id": "a", "text": "x < 1 or x > 3" },
+      { "id": "b", "text": "x > 3" },
+      { "id": "c", "text": "1 < x < 3" },
+      { "id": "d", "text": "x < 1" }
+    ],
+    "correctAnswerId": "c",
+    "subject": "Math",
+    "difficulty": "hard",
+    "tags": ["quadratics", "inequalities", "functions"]
+  },
+  {
+    "id": "q4",
+    "stem": "A store marks up the wholesale price of an item by 40% to set the retail price. During a sale, the retail price is discounted by 20%. The sale price is what percent of the wholesale price?",
+    "answers": [
+      { "id": "a", "text": "96%" },
+      { "id": "b", "text": "108%" },
+      { "id": "c", "text": "112%" },
+      { "id": "d", "text": "120%" }
+    ],
+    "correctAnswerId": "c",
+    "subject": "Math",
+    "difficulty": "hard",
+    "tags": ["percentages", "multi-step", "word-problems"]
+  },
+  {
+    "id": "q5",
+    "stem": "The author of the passage most likely includes the detail about the abandoned factory to",
+    "answers": [
+      { "id": "a", "text": "criticize the local government's urban planning decisions" },
+      { "id": "b", "text": "establish a sense of neglect and economic decline in the setting" },
+      { "id": "c", "text": "foreshadow a conflict between the protagonist and her employer" },
+      { "id": "d", "text": "illustrate the protagonist's nostalgia for her childhood" }
+    ],
+    "correctAnswerId": "b",
+    "subject": "Reading",
+    "difficulty": "medium",
+    "tags": ["literary-analysis", "author-purpose", "setting"]
+  },
+  {
+    "id": "q6",
+    "stem": "As used in line 42, the word \"austere\" most nearly means",
+    "answers": [
+      { "id": "a", "text": "simple and unadorned" },
+      { "id": "b", "text": "harsh and demanding" },
+      { "id": "c", "text": "ancient and weathered" },
+      { "id": "d", "text": "cold and unfriendly" }
+    ],
+    "correctAnswerId": "a",
+    "subject": "Reading",
+    "difficulty": "easy",
+    "tags": ["vocabulary-in-context", "word-meaning"]
+  },
+  {
+    "id": "q7",
+    "stem": "Which choice provides the best evidence for the claim that the researcher's hypothesis was supported by the data?",
+    "answers": [
+      { "id": "a", "text": "Lines 12–14 (\"The experiment … conditions\")" },
+      { "id": "b", "text": "Lines 23–25 (\"Although … unexpected\")" },
+      { "id": "c", "text": "Lines 38–40 (\"Results showed … predicted\")" },
+      { "id": "d", "text": "Lines 51–53 (\"Further research … needed\")" }
+    ],
+    "correctAnswerId": "c",
+    "subject": "Reading",
+    "difficulty": "medium",
+    "tags": ["evidence-based", "paired-passages", "inference"]
+  },
+  {
+    "id": "q8",
+    "stem": "The central argument of the passage is best described as which of the following?",
+    "answers": [
+      { "id": "a", "text": "Economic growth and environmental protection are mutually exclusive goals." },
+      { "id": "b", "text": "Individual behavior change is the only effective response to climate change." },
+      { "id": "c", "text": "Renewable energy technology has already solved the problem of fossil fuel dependency." },
+      { "id": "d", "text": "Systemic policy reform is necessary to meaningfully reduce carbon emissions at scale." }
+    ],
+    "correctAnswerId": "d",
+    "subject": "Reading",
+    "difficulty": "hard",
+    "tags": ["main-idea", "argumentation", "rhetoric"]
+  },
+  {
+    "id": "q9",
+    "stem": "A scientist measures the pH of a solution and finds it to be 4. Compared to a solution with a pH of 6, the pH-4 solution is",
+    "answers": [
+      { "id": "a", "text": "2 times more acidic" },
+      { "id": "b", "text": "2 times less acidic" },
+      { "id": "c", "text": "50 times more acidic" },
+      { "id": "d", "text": "100 times more acidic" }
+    ],
+    "correctAnswerId": "d",
+    "subject": "Science",
+    "difficulty": "medium",
+    "tags": ["chemistry", "pH", "logarithmic-scale"]
+  },
+  {
+    "id": "q10",
+    "stem": "During cellular respiration, glucose is broken down to produce ATP. Which of the following correctly describes the net ATP yield from glycolysis alone?",
+    "answers": [
+      { "id": "a", "text": "36–38 ATP" },
+      { "id": "b", "text": "2 ATP" },
+      { "id": "c", "text": "0 ATP" },
+      { "id": "d", "text": "34 ATP" }
+    ],
+    "correctAnswerId": "b",
+    "subject": "Science",
+    "difficulty": "easy",
+    "tags": ["biology", "cellular-respiration", "glycolysis"]
+  },
+  {
+    "id": "q11",
+    "stem": "A ball is thrown horizontally from the top of a 45 m cliff with an initial speed of 10 m/s. Ignoring air resistance and using g = 10 m/s², approximately how far from the base of the cliff does the ball land?",
+    "answers": [
+      { "id": "a", "text": "10 m" },
+      { "id": "b", "text": "20 m" },
+      { "id": "c", "text": "30 m" },
+      { "id": "d", "text": "45 m" }
+    ],
+    "correctAnswerId": "c",
+    "subject": "Science",
+    "difficulty": "hard",
+    "tags": ["physics", "projectile-motion", "kinematics"]
+  },
+  {
+    "id": "q12",
+    "stem": "A researcher counts 240 bacteria in a culture at time 0. The population doubles every 3 hours. Which expression gives the population after t hours?",
+    "answers": [
+      { "id": "a", "text": "240 × 2^(t/3)" },
+      { "id": "b", "text": "240 × 3^t" },
+      { "id": "c", "text": "240 + 2t" },
+      { "id": "d", "text": "240 × 2^(3t)" }
+    ],
+    "correctAnswerId": "a",
+    "subject": "Science",
+    "difficulty": "easy",
+    "tags": ["biology", "exponential-growth", "modeling"]
+  }
+]
