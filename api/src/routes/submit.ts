@@ -21,8 +21,6 @@ const correctAnswerMap: Record<string, string> = Object.fromEntries(
   questions.map((q) => [q.id, q.correctAnswerId])
 );
 
-const TOTAL = questions.length;
-
 router.post('/', (req: Request<object, SubmitResult, SubmitBody>, res: Response<SubmitResult>) => {
   const submitted: SubmittedAnswer[] = req.body?.answers ?? [];
 
@@ -34,7 +32,7 @@ router.post('/', (req: Request<object, SubmitResult, SubmitBody>, res: Response<
     }
   }
 
-  res.json({ score, total: TOTAL });
+  res.json({ score, total: submitted.length });
 });
 
 export default router;

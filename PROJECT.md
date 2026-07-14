@@ -28,7 +28,7 @@ The candidate is given a fully scaffolded local Express API and asked to build a
 **Base URL:** `http://localhost:3001`
 
 ### `GET /api/questions`
-Returns the list of exam questions.
+Returns the list of exam questions. Supports optional `limit` and `offset` query parameters to fetch a slice (e.g. `?limit=3`); omit both for the full set.
 
 **Response:**
 ```json
@@ -50,7 +50,7 @@ Returns the list of exam questions.
 ```
 
 ### `POST /api/submit`
-Accepts the candidate's answers and returns a score.
+Accepts the candidate's answers and returns a score. `total` equals the number of answers submitted, so a partial question set still scores correctly.
 
 **Request body:**
 ```json
