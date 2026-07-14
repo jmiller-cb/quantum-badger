@@ -17,9 +17,19 @@ interface QuestionPublic {
   tags: string[];
 }
 
-router.get('/', (_req: Request, res: Response) => {
+function parseNonNegativeInt(value: unknown): number | undefined {
+  if (typeof value !== 'string') return undefined;
+  const parsed = Number.parseInt(value, 10);
+  return Number.isNaN(parsed) || parsed < 0 ? undefined : parsed;
+}
+
+router.get('/', (req: Request, res: Response) => {
   const stripped: QuestionPublic[] = questions.map(({ correctAnswerId: _omit, ...rest }) => rest);
-  res.json(stripped);
+
+  const offset = parseNonNegativeInt(req.query.offset) ?? 0;
+  const limit = parseNonNegativeInt(req.query.limit) ?? stripped.length;
+
+  res.json(stripped.slice(offset, offset + limit));
 });
 
 export default router;

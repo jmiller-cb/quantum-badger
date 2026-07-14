@@ -49,6 +49,15 @@ Build a test-taking experience in `ui/src/`. The app shell and TypeScript interf
 
 Returns the list of exam questions. Note: correct answers are not included in the response.
 
+**Query parameters (optional):**
+
+| Param | Description |
+|-------|-------------|
+| `limit` | Maximum number of questions to return (e.g. `?limit=3`) |
+| `offset` | Number of questions to skip before the slice starts (default `0`) |
+
+Omit both to get the full question set.
+
 **Response:**
 ```json
 [
@@ -70,7 +79,7 @@ Returns the list of exam questions. Note: correct answers are not included in th
 
 ### `POST /api/submit`
 
-Scores the exam. Send all answers; the server returns a score.
+Scores the exam. Send the answers for the questions you fetched; the server returns a score. `total` equals the number of answers submitted, so scoring works correctly even when using `limit`/`offset` to work with a subset of questions.
 
 **Request body:**
 ```json
